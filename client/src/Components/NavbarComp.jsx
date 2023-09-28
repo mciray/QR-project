@@ -15,7 +15,7 @@ export default function NavbarComp() {
         </Box>
         <Show above='md'>
           <Box w={350}>
-            <Input placeholder='Search' size='md' />
+            <Input placeholder='Search' size='md' name='search' />
           </Box>
         </Show>
         <Box p={2}>

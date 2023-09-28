@@ -28,5 +28,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/v1/products", urun_gonder),
     path("api/v1/categories", kategori_gonder),
+    path('api/v1/createuser', kayit),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
