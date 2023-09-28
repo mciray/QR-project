@@ -42,6 +42,8 @@ def kategori_gonder(request):
     kategoriler = Kategori.objects.all()
     serialize = Kategoriler(kategoriler, many = True)
 
+
+
     return Response(serialize.data)
 
 
