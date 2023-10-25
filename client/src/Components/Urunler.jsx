@@ -16,14 +16,11 @@ export default function Urunler() {
         apiFetch()
     },[])
 
-    
-
-
 
 
     return (
     <>
-        
+       
     </>
   )
 }
